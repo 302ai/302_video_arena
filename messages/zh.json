@@ -1,0 +1,314 @@
+{
+  "auth": {
+    "description": "创建者开启了验证，请在下方填入分享码",
+    "form": {
+      "confirm_button": "确认",
+      "confirm_button_loading": "验证中",
+      "input_code": "请输入分享码",
+      "remember_code": "记住分享码"
+    },
+    "title": "需要分享码"
+  },
+  "common": {
+    "downloading": {
+      "complete": "下载完成",
+      "error": "下载失败: {error}",
+      "progress": "下载进度",
+      "remaining": "剩余时间",
+      "speed": "下载速度",
+      "start": "开始下载"
+    },
+    "noModelFound": "未找到模型",
+    "pagination": {
+      "more_pages": "更多页面",
+      "next": "下一页",
+      "previous": "上一页"
+    },
+    "random": "随机",
+    "searchModels": "搜索模型...",
+    "selectModel": "选择模型",
+    "selectedCount": "已选择 {count} 个"
+  },
+  "global": {
+    "error": {
+      "code_invalid": "分享码错误, 更多请访问 302.AI",
+      "copy_failed": "复制失败",
+      "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+      "not_found": "页面不存在",
+      "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+      "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+      "unknown_error": "发生未知错误, 请联系客服"
+    },
+    "footer": {
+      "copyright_content": "本项目由<logo></logo>驱动",
+      "copyright_leading": "内容由AI生成，仅供参考"
+    },
+    "header": {
+      "github_link": {
+        "label": "访问 GitHub 仓库"
+      },
+      "language_switcher": {
+        "switch_language": "切换语言"
+      },
+      "theme_switcher": {
+        "dark": "暗色模式",
+        "light": "亮色模式",
+        "system": "跟随系统",
+        "toggle_theme": "切换主题"
+      },
+      "tool_info": {
+        "description": "当前工具相关信息",
+        "title": "关于",
+        "trigger": {
+          "label": "打开/关闭工具信息弹窗"
+        }
+      }
+    },
+    "model_pk_guide": {
+      "description": "根据描述，随机或自选两个模型生成视频进行对比。",
+      "image_generation": {
+        "description": "根据描述，您可以选择多个模型同时生成多个视频。",
+        "title": "视频生成"
+      },
+      "prompt_optimization": {
+        "description": "提示词优化增强了您的初始提示，以提高对视频内容的表达。",
+        "title": "提示词优化",
+        "translation": "您可以使用任何语言进行描述，它会翻译成英语。"
+      },
+      "title": "视频竞技场",
+      "trigger": {
+        "label": "打开视频竞技场使用指南"
+      },
+      "voting": {
+        "description": "您可以在视频下方进行投票，投票成功后，将在下方显示视频生成所使用的模型名称。",
+        "ranking": "您所投的每一票都将计入您的排行榜，供您参考模型的美学表现。"
+      },
+      "warning": "注意：不能重复选择一个模型。"
+    }
+  },
+  "history": {
+    "download": "下载",
+    "failed": "生成失败",
+    "loading": "加载中...",
+    "page": "第 {current} 页，共 {total} 页",
+    "processing": "处理中",
+    "prompt": "提示词",
+    "tie": "平局",
+    "typeGen": "视频生成",
+    "typePk": "模型PK",
+    "videoCount": "个视频",
+    "winner": "{model} 获胜"
+  },
+  "home": {
+    "header": {
+      "title": "视频竞技场"
+    }
+  },
+  "leaderBoard": {
+    "appearances": "出场次数",
+    "creator": "创建者",
+    "empty": "暂无排行榜数据",
+    "loading": "加载中...",
+    "model": "模型",
+    "name": "名称",
+    "score": "得分",
+    "selections": "选择次数",
+    "winRate": "胜率"
+  },
+  "modelGen": {
+    "change": "更改",
+    "changeImage": "更改图片",
+    "changeVideo": "更改视频",
+    "duration": "时长（秒）",
+    "endImage": "结束图片",
+    "error": {
+      "generate_failed": "生成失败",
+      "invalidForm": "请正确填写表单",
+      "no_end_image": "请上传结束图片",
+      "no_image": "请上传图片",
+      "no_model": "请先选择模型",
+      "no_prompt": "请先输入提示词",
+      "no_resolution": "请先选择分辨率",
+      "no_start_image": "请上传开始图片",
+      "no_video": "请上传视频"
+    },
+    "fps": "帧率",
+    "gallery": {
+      "actions": {
+        "delete": "删除",
+        "details": "详情",
+        "download": "下载",
+        "exitFullscreen": "退出全屏",
+        "fullscreen": "全屏",
+        "mute": "静音",
+        "pause": "暂停",
+        "play": "播放",
+        "unmute": "取消静音"
+      },
+      "description": "这里展示了您所有生成过的视频，最新生成的视频会显示在最前面",
+      "emptyMessage": "来试试生成精彩的视频吧！",
+      "emptyVideoMessage": "暂无生成的视频",
+      "loading": "加载中...",
+      "noMoreVideos": "没有更多视频了",
+      "promptTitle": "提示词",
+      "status": {
+        "failed": "失败",
+        "generationFailed": "生成失败",
+        "pending": "等待中",
+        "processing": "处理中",
+        "processingVideo": "视频处理中...",
+        "ready": "就绪",
+        "waitingToStart": "等待开始..."
+      },
+      "title": "生成历史",
+      "videoDescription": "您生成的视频",
+      "videoTitle": "视频画廊"
+    },
+    "generate": "生成图片",
+    "generateVideo": "生成视频",
+    "generating": "生成中",
+    "i2vEndPromptPlaceholder": "输入提示词以指导视频生成...",
+    "i2vPromptPlaceholder": "输入提示词以指导视频生成...",
+    "model": "模型",
+    "modelDescriptions": {
+      "cog_i2v": "智谱AI的图像生成视频模型",
+      "cog_t2v": "智谱AI的文本生成视频模型",
+      "genmo_t2v": "使用Genmo的Mochi1模型和非对称扩散变换器的文本生成视频",
+      "google_veo_t2v": "Google最新的文本生成视频模型",
+      "haiper_20_i2v": "Haiper 2.0版本的图像生成视频功能",
+      "haiper_20_t2v": "Haiper 2.0版本的文本生成视频功能",
+      "haiper_25_i2v": "Haiper 2.5版本的图像生成视频功能",
+      "haiper_25_t2v": "Haiper 2.5版本的文本生成视频功能",
+      "kling_10_i2v": "Kling 1.0 版本的图像生成视频模型",
+      "kling_10_t2v": "Kling 1.0 版本的文本生成视频模型",
+      "kling_15_i2v": "Kling 1.5 版本的图像生成视频模型",
+      "kling_15_i2v_hq": "Kling 1.5 版本的高质量图像生成视频模型",
+      "kling_15_t2v_hq": "Kling 1.5 版本的高质量文本生成视频模型",
+      "kling_16_i2v": "Kling 1.6 版本的图像生成视频模型",
+      "kling_16_i2v_hq": "Kling 1.6 版本的高质量图像生成视频模型",
+      "kling_16_t2v": "Kling 1.6 版本的文本生成视频模型",
+      "kling_16_t2v_hq": "Kling 1.6 版本的高质量文本生成视频模型",
+      "ltx_i2v": "快速开源的图像生成视频模型。需要3:2比例的图像",
+      "ltx_t2v": "快速开源的文本生成视频模型。建议使用详细的提示词",
+      "luma_video": "从文本或图像生成5秒视频。支持指定第一帧和最后一帧",
+      "minimaxi_I2V-01": "Minimax的图像生成视频模型",
+      "minimaxi_I2V-01-Director": "Minimax的导演版图像生成视频模型",
+      "minimaxi_I2V-01-live": "Minimax的实时图像生成视频模型",
+      "minimaxi_S2V-01": "Minimax的主题生成视频模型",
+      "minimaxi_T2V-01": "Minimax的文本生成视频模型",
+      "minimaxi_T2V-01-Director": "Minimax的导演版文本生成视频模型",
+      "pika_1_0": "Pika 1.0版本的文本/图像生成视频模型",
+      "pika_1_5": "Pika 1.5版本的文本/图像生成视频模型",
+      "pika_2_0": "Pika 2.0版本的文本/图像生成视频模型",
+      "pika_2_0_contextualize": "Pika的参考主题生成视频模型",
+      "pixverse_v2": "Pixverse V2版本的图像生成视频功能",
+      "pixverse_v3": "Pixverse V3版本的图像生成视频功能",
+      "pixverse_v3_5": "Pixverse V3.5版本的图像生成视频功能",
+      "pixverse_v4": "Pixverse V4版本的图像生成视频功能",
+      "runway_gen3_i2v": "Runway Gen-3 的图像生成视频功能，可从图像生成10秒视频",
+      "runway_gen3_i2v_turbo": "Runway Gen-3 Turbo 的快速图像生成视频功能，支持5秒或10秒视频",
+      "runway_gen3_t2v": "Runway Gen-3 的文本生成视频功能，可从文本生成10秒视频",
+      "runway_gen3_v2v": "Runway Gen-3 的视频转换功能，根据提示词转换视频",
+      "runway_gen3_v2v_turbo": "Runway Gen-3 Turbo 的快速视频转换功能",
+      "seaweed_i2v": "Seaweed的图像生成视频模型。仅支持5秒时长",
+      "seaweed_t2v": "Seaweed的文本生成视频模型",
+      "siliconflow_hunyuan": "SiliconFlow部署的混元模型",
+      "siliconflow_ltx": "SiliconFlow部署的LTX模型",
+      "siliconflow_mochi": "SiliconFlow部署的Mochi模型",
+      "siliconflow_wan21_t2v_14b": "SiliconFlow部署的Wan21文本生成视频14B模型",
+      "siliconflow_wan21_t2v_14b_turbo": "SiliconFlow部署的Wan21文本生成视频14B加速版模型",
+      "siliconflow_wan21_i2v_14b_720p": "SiliconFlow部署的Wan21图像生成视频14B 720p模型",
+      "siliconflow_wan21_i2v_14b_720p_turbo": "SiliconFlow部署的Wan21图像生成视频14B 720p加速版模型",
+      "skyreels_i2v": "昆仑万维Skyreels最新的图像生成视频模型",
+      "stable_diffusion": "使用 Stable Video Diffusion 基于初始图像生成短视频",
+      "wan_i2v": "开源的图像生成视频模型",
+      "wan_t2v": "开源的文本生成视频模型",
+      "wanx2_1_t2v_plus": "Wanx的高质量文本生成视频模型，细节更丰富",
+      "wanx2_1_t2v_turbo": "Wanx的快速文本生成视频模型，性能均衡"
+    },
+    "modelPlaceholder": "选择模型",
+    "no": "否",
+    "optimize": "优化提示词",
+    "processing": "处理中",
+    "prompt": "提示词",
+    "promptOptional": "提示词（可选）",
+    "promptOptionalPlaceholder": "添加提示词以指导视频生成...",
+    "promptPlaceholder": "在此处输入您的提示",
+    "promptRequired": "转换提示词",
+    "remove": "移除",
+    "resolution": "分辨率",
+    "resolutionPlaceholder": "选择图片比例",
+    "startImage": "开始图片",
+    "supportedFormats": "支持 JPG、PNG、WEBP",
+    "supportedVideoFormats": "支持 MP4、WEBM",
+    "tabs": {
+      "imageToVideo": "图片生成视频",
+      "startEndImages": "首尾帧生成",
+      "textToVideo": "文本生成视频",
+      "videoToVideo": "视频转视频"
+    },
+    "upload": "上传",
+    "uploadEndImage": "上传结束图片",
+    "uploadImage": "上传图片以生成视频",
+    "uploadStartImage": "上传开始图片",
+    "uploadVideo": "上传视频进行转换",
+    "v2vPromptPlaceholder": "描述您想如何转换视频...",
+    "yes": "是"
+  },
+  "modelPk": {
+    "aspectRatio": "{ratio} 比例",
+    "duration": "时长（秒）",
+    "error": {
+      "generate_failed": "生成失败",
+      "left_generate_failed": "左侧视频生成失败",
+      "no_model": "请先选择模型",
+      "no_prompt": "请先输入提示词",
+      "no_resolution": "请先选择分辨率",
+      "right_generate_failed": "右侧视频生成失败",
+      "update_leaderboard_failed": "排行榜更新失败"
+    },
+    "estimatedTime": "预计还需 {time}s",
+    "fps": "帧率",
+    "generate": "生成",
+    "generating": "生成中",
+    "leftBetter": "左边更好",
+    "leftModel": "左侧模型",
+    "leftModelFailed": "左侧视频生成失败",
+    "leftModelPreview": "左侧模型生成的结果",
+    "leftWins": "左边获胜",
+    "model": "模型",
+    "modelPlaceholder": "选择模型",
+    "no": "否",
+    "optimize": "优化提示词",
+    "processing": "处理中",
+    "promptPlaceholder": "在此处输入您的提示",
+    "random": "随机",
+    "ratioDescriptions": {
+      "landscapeNineSixteen": "横向",
+      "landscapeThreeFour": "横向",
+      "landscapeTwoThree": "横向",
+      "portraitNineSixteen": "竖向",
+      "portraitThreeFour": "竖向",
+      "portraitTwoThree": "竖向",
+      "square": "正方形"
+    },
+    "resolution": "分辨率",
+    "resolutionPlaceholder": "选择图片比例",
+    "rightBetter": "右边更好",
+    "rightModel": "右侧模型",
+    "rightModelFailed": "右侧视频生成失败",
+    "rightModelPreview": "右侧模型生成的结果",
+    "rightWins": "右边获胜",
+    "skip": "跳过",
+    "winner": "获胜",
+    "yes": "是"
+  },
+  "tabs": {
+    "history": "历史记录",
+    "leaderBoard": "排行榜",
+    "leaderBoardContent": "排行榜内容",
+    "loading": "加载中...",
+    "modelGen": "视频生成",
+    "modelPk": "模型PK"
+  }
+}

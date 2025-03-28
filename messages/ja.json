@@ -1,0 +1,314 @@
+{
+  "auth": {
+    "description": "作成者は認証を有効にしています。以下の共有コードを入力してください",
+    "form": {
+      "confirm_button": "確認",
+      "confirm_button_loading": "検証中",
+      "input_code": "共有コードを入力してください",
+      "remember_code": "共有コードを記憶する"
+    },
+    "title": "コードを共有する必要がある"
+  },
+  "common": {
+    "downloading": {
+      "complete": "完成したダウンロード",
+      "error": "ダウンロード失敗：{エラー}",
+      "progress": "進捗状況をダウンロードします",
+      "remaining": "残り時間",
+      "speed": "ダウンロード速度",
+      "start": "ダウンロードを開始します"
+    },
+    "noModelFound": "モデルが見つかりません",
+    "pagination": {
+      "more_pages": "その他のページ",
+      "next": "次へ",
+      "previous": "前へ"
+    },
+    "random": "ランダム",
+    "searchModels": "モデルを検索...",
+    "selectModel": "モデルを選択",
+    "selectedCount": "{count}個 選択済み"
+  },
+  "global": {
+    "error": {
+      "code_invalid": "共有コードが無効です。詳細は302.AIをご覧ください",
+      "copy_failed": "コピーに失敗しました",
+      "network_error": "ネットワークサービスエラー。ネットワーク状態を確認するか、後ほど再試行してください",
+      "not_found": "ページが存在しません",
+      "tool_deleted": "このツールは削除されました。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "tool_disabled": "このツールは無効になっています。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "unknown_error": "不明なエラーが発生しました。サポートにお問い合わせください"
+    },
+    "footer": {
+      "copyright_content": "<logo></logo>による提供",
+      "copyright_leading": "AI生成のコンテンツであり、参考用です"
+    },
+    "header": {
+      "github_link": {
+        "label": "GitHub リポジトリにアクセス"
+      },
+      "language_switcher": {
+        "switch_language": "言語を切り替える"
+      },
+      "theme_switcher": {
+        "dark": "ダークモード",
+        "light": "ライトモード",
+        "system": "システムデフォルト",
+        "toggle_theme": "テーマを切り替える"
+      },
+      "tool_info": {
+        "description": "現在のツールに関する情報",
+        "title": "について",
+        "trigger": {
+          "label": "ツール情報ポップアップを開く/閉じる"
+        }
+      }
+    },
+    "model_pk_guide": {
+      "description": "説明に基づいて、ランダムまたは選択したモデルで動画を生成し比較します。",
+      "image_generation": {
+        "description": "説明に基づいて、複数のモデルを選択して同時に複数の動画を生成できます。",
+        "title": "動画生成"
+      },
+      "prompt_optimization": {
+        "description": "プロンプト最適化は、動画内容の表現を向上させるために初期プロンプトを強化します。",
+        "title": "プロンプト最適化",
+        "translation": "任意の言語で記述でき、英語に翻訳されます。"
+      },
+      "title": "動画アリーナ",
+      "trigger": {
+        "label": "動画アリーナガイドを開く"
+      },
+      "voting": {
+        "description": "各動画の下で投票できます。投票後、その動画の生成に使用されたモデルが下に表示されます。",
+        "ranking": "投票はすべてランキングに反映され、モデルの美的性能を評価する参考になります。"
+      },
+      "warning": "注意：同じモデルを2回選択することはできません。"
+    }
+  },
+  "history": {
+    "download": "ダウンロード",
+    "failed": "生成は失敗しました",
+    "loading": "読み込み中...",
+    "page": "ページ {current} / {total}",
+    "processing": "処理",
+    "prompt": "プロンプト",
+    "tie": "引き分け",
+    "typeGen": "動画生成",
+    "typePk": "モデルPK",
+    "videoCount": "ビデオ",
+    "winner": "{model} が勝利"
+  },
+  "home": {
+    "header": {
+      "title": "動画アリーナ"
+    }
+  },
+  "leaderBoard": {
+    "appearances": "出演回数",
+    "creator": "クリエイター",
+    "empty": "リーダーボードのデータがありません",
+    "loading": "読み込み中...",
+    "model": "モデル",
+    "name": "名前",
+    "score": "スコア",
+    "selections": "選択数",
+    "winRate": "勝率"
+  },
+  "modelGen": {
+    "change": "変更",
+    "changeImage": "画像を変更",
+    "changeVideo": "動画を変更",
+    "duration": "長さ（秒）",
+    "endImage": "終了画像",
+    "error": {
+      "generate_failed": "生成に失敗しました",
+      "invalidForm": "フォームに正しく記入してください",
+      "no_end_image": "エンド画像をアップロードしてください",
+      "no_image": "画像をアップロードしてください",
+      "no_model": "モデルを選択してください",
+      "no_prompt": "プロンプトを入力してください",
+      "no_resolution": "解像度を選択してください",
+      "no_start_image": "スタート画像をアップロードしてください",
+      "no_video": "動画をアップロードしてください"
+    },
+    "fps": "フレームレート",
+    "gallery": {
+      "actions": {
+        "delete": "削除",
+        "details": "詳細",
+        "download": "ダウンロード",
+        "exitFullscreen": "フル画面を終了します",
+        "fullscreen": "全画面表示",
+        "mute": "ミュート",
+        "pause": "一時停止",
+        "play": "再生",
+        "unmute": "ミュート解除"
+      },
+      "description": "生成した動画がすべて表示されます。最新の動画が最初に表示されます",
+      "emptyMessage": "素晴らしい動画を生成してみましょう！",
+      "emptyVideoMessage": "まだ動画が生成されていません",
+      "loading": "読み込み中...",
+      "noMoreVideos": "これ以上動画はありません",
+      "promptTitle": "プロンプト",
+      "status": {
+        "failed": "失敗",
+        "generationFailed": "生成に失敗しました",
+        "pending": "保留中",
+        "processing": "処理中",
+        "processingVideo": "動画を処理中...",
+        "ready": "準備完了",
+        "waitingToStart": "開始を待機中..."
+      },
+      "title": "生成履歴",
+      "videoDescription": "生成された動画",
+      "videoTitle": "動画ギャラリー"
+    },
+    "generate": "画像を生成",
+    "generateVideo": "動画を生成",
+    "generating": "生成中",
+    "i2vEndPromptPlaceholder": "ビデオ生成を導くための迅速な単語を入力してください...",
+    "i2vPromptPlaceholder": "ビデオ生成を導くための迅速な単語を入力してください...",
+    "model": "モデル",
+    "modelDescriptions": {
+      "cog_i2v": "Zhipuの画像から動画生成モデル",
+      "cog_t2v": "Zhipuのテキストから動画生成モデル",
+      "genmo_t2v": "Genmoの非対称拡散トランスフォーマーを使用したMochi1モデルによるテキストから動画生成",
+      "google_veo_t2v": "Googleの最新テキストから動画生成モデル",
+      "haiper_20_i2v": "Haiperバージョン2.0の画像から動画生成",
+      "haiper_20_t2v": "Haiperバージョン2.0のテキストから動画生成",
+      "haiper_25_i2v": "Haiperバージョン2.5の画像から動画生成",
+      "haiper_25_t2v": "Haiperバージョン2.5のテキストから動画生成",
+      "kling_10_i2v": "Klingバージョン1.0の画像から動画生成モデル",
+      "kling_10_t2v": "Klingバージョン1.0のテキストから動画生成モデル",
+      "kling_15_i2v": "Klingバージョン1.5の画像から動画生成モデル",
+      "kling_15_i2v_hq": "Klingバージョン1.5の高品質画像から動画生成モデル",
+      "kling_15_t2v_hq": "Klingバージョン1.5の高品質テキストから動画生成モデル",
+      "kling_16_i2v": "Klingバージョン1.6の画像から動画生成モデル",
+      "kling_16_i2v_hq": "Klingバージョン1.6の高品質画像から動画生成モデル",
+      "kling_16_t2v": "Klingバージョン1.6のテキストから動画生成モデル",
+      "kling_16_t2v_hq": "Klingバージョン1.6の高品質テキストから動画生成モデル",
+      "ltx_i2v": "高速オープンソースの画像から動画生成モデル。3:2比率の画像が必要",
+      "ltx_t2v": "高速オープンソースのテキストから動画生成モデル。詳細なプロンプトを推奨",
+      "luma_video": "テキストや画像から5秒の動画を生成。最初と最後のフレームを指定可能",
+      "minimaxi_I2V-01": "Minimaxの画像から動画生成モデル",
+      "minimaxi_I2V-01-Director": "Minimaxのディレクターバージョン画像から動画生成モデル",
+      "minimaxi_I2V-01-live": "Minimaxのライブ画像から動画生成モデル",
+      "minimaxi_S2V-01": "Minimaxの主題から動画生成モデル",
+      "minimaxi_T2V-01": "Minimaxのテキストから動画生成モデル",
+      "minimaxi_T2V-01-Director": "Minimaxのディレクターバージョンテキストから動画生成モデル",
+      "pika_1_0": "Pikaバージョン1.0のテキスト/画像から動画生成モデル",
+      "pika_1_5": "Pikaバージョン1.5のテキスト/画像から動画生成モデル",
+      "pika_2_0": "Pikaバージョン2.0のテキスト/画像から動画生成モデル",
+      "pika_2_0_contextualize": "Pikaの参照主題から動画生成モデル",
+      "pixverse_v2": "Pixverse V2バージョンの画像から動画生成機能",
+      "pixverse_v3": "Pixverse V3バージョンの画像から動画生成機能",
+      "pixverse_v3_5": "Pixverse V3.5バージョンの画像から動画生成機能",
+      "pixverse_v4": "Pixverse V4バージョンの画像から動画生成機能",
+      "runway_gen3_i2v": "Runway Gen-3の画像から動画生成機能、10秒の動画を生成",
+      "runway_gen3_i2v_turbo": "Runway Gen-3 Turboの高速画像から動画生成機能、5秒または10秒の動画に対応",
+      "runway_gen3_t2v": "Runway Gen-3のテキストから動画生成機能、10秒の動画を生成",
+      "runway_gen3_v2v": "Runway Gen-3の動画変換機能、プロンプトに基づいて動画を変換",
+      "runway_gen3_v2v_turbo": "Runway Gen-3 Turboの高速動画変換機能",
+      "seaweed_i2v": "Seaweedの画像から動画生成モデル。5秒の動画のみ対応",
+      "seaweed_t2v": "Seaweedのテキストから動画生成モデル",
+      "siliconflow_hunyuan": "SiliconFlowによって展開された混元モデル",
+      "siliconflow_ltx": "SiliconFlowによって展開されたLTXモデル",
+      "siliconflow_mochi": "SiliconFlowによって展開されたMochiモデル",
+      "siliconflow_wan21_t2v_14b": "SiliconFlowのWan21テキストから動画へ変換する14Bモデル",
+      "siliconflow_wan21_t2v_14b_turbo": "SiliconFlowのWan21テキストから動画へ変換する14Bターボモデル",
+      "siliconflow_wan21_i2v_14b_720p": "SiliconFlowのWan21画像から動画へ変換する14B 720pモデル",
+      "siliconflow_wan21_i2v_14b_720p_turbo": "SiliconFlowのWan21画像から動画へ変換する14B 720pターボモデル",
+      "skyreels_i2v": "崑崙万維Skyreelsの最新の画像から動画へ変換するモデル",
+      "stable_diffusion": "Stable Video Diffusionを使用して初期画像から短い動画を生成",
+      "wan_i2v": "オープンソースの画像から動画生成モデル",
+      "wan_t2v": "オープンソースのテキストから動画生成モデル",
+      "wanx2_1_t2v_plus": "Wanxの豊かな詳細を持つ高品質テキストから動画生成モデル",
+      "wanx2_1_t2v_turbo": "Wanxのバランスの取れた高速テキストから動画生成モデル"
+    },
+    "modelPlaceholder": "モデルを選択",
+    "no": "いいえ",
+    "optimize": "最適化されたリマインダー",
+    "processing": "処理中",
+    "prompt": "迅速な言葉",
+    "promptOptional": "プロンプト（任意）",
+    "promptOptionalPlaceholder": "動画生成をガイドするプロンプトを追加...",
+    "promptPlaceholder": "プロンプトを入力してください",
+    "promptRequired": "変換プロンプト",
+    "remove": "削除",
+    "resolution": "解像度",
+    "resolutionPlaceholder": "アスペクト比を選択",
+    "startImage": "開始画像",
+    "supportedFormats": "JPG、PNG、WEBPをサポート",
+    "supportedVideoFormats": "MP4、WEBMをサポート",
+    "tabs": {
+      "imageToVideo": "画像から動画",
+      "startEndImages": "ヘッドとテールフレームの生成",
+      "textToVideo": "テキストから動画",
+      "videoToVideo": "動画から動画"
+    },
+    "upload": "アップロード",
+    "uploadEndImage": "終了画像をアップロード",
+    "uploadImage": "画像をアップロードして動画を生成",
+    "uploadStartImage": "開始画像をアップロード",
+    "uploadVideo": "変換する動画をアップロード",
+    "v2vPromptPlaceholder": "動画をどのように変換したいか説明してください...",
+    "yes": "はい"
+  },
+  "modelPk": {
+    "aspectRatio": "{ratio} 比率",
+    "duration": "期間（秒）",
+    "error": {
+      "generate_failed": "ビルドに失敗しました",
+      "left_generate_failed": "左側のビデオ生成は失敗しました",
+      "no_model": "最初にモデルを選択してください",
+      "no_prompt": "最初にプロンプ​​トの単語を入力してください",
+      "no_resolution": "最初に解像度を選択してください",
+      "right_generate_failed": "ビデオ生成は右側で失敗しました",
+      "update_leaderboard_failed": "ランキングの更新に失敗しました"
+    },
+    "estimatedTime": "{time}が必要になると予想されます",
+    "fps": "フレームレート",
+    "generate": "生成",
+    "generating": "生成中",
+    "leftBetter": "左の方が良い",
+    "leftModel": "左モデル",
+    "leftModelFailed": "左モデルで生成できません",
+    "leftModelPreview": "左モデルの結果",
+    "leftWins": "左で勝ちます",
+    "model": "モデル",
+    "modelPlaceholder": "モデルを選択",
+    "no": "いいえ",
+    "optimize": "最適化プロンプトの言葉",
+    "processing": "処理",
+    "promptPlaceholder": "プロンプトを入力してください",
+    "random": "ランダム",
+    "ratioDescriptions": {
+      "landscapeNineSixteen": "横向き",
+      "landscapeThreeFour": "横向き",
+      "landscapeTwoThree": "横向き",
+      "portraitNineSixteen": "縦向き",
+      "portraitThreeFour": "縦向き",
+      "portraitTwoThree": "縦向き",
+      "square": "正方形"
+    },
+    "resolution": "解像度",
+    "resolutionPlaceholder": "アスペクト比を選択",
+    "rightBetter": "右の方が良い",
+    "rightModel": "右側のモデル",
+    "rightModelFailed": "右モデル生成障害",
+    "rightModelPreview": "右モデルの結果",
+    "rightWins": "右で勝ちます",
+    "skip": "スキップ",
+    "winner": "勝つ",
+    "yes": "はい"
+  },
+  "tabs": {
+    "history": "歴史",
+    "leaderBoard": "ランキング",
+    "leaderBoardContent": "ランキングの内容",
+    "loading": "読み込み中...",
+    "modelGen": "動画生成",
+    "modelPk": "モデルPK"
+  }
+}

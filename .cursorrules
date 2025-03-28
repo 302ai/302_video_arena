@@ -1,0 +1,62 @@
+！我们全程使用pnpm、Typescript、NextJS13、ShadCN、Tailwincss、SWR、ky。
+## 1 项目状态管理
+### 1.1 Jotai
+对于简单的、片面的全局状态，项目默认使用Jotai进行状态管理。
+其中，Jotai相关代码均位于 `src/store` 目录下。
+我偏好于将不同的状态类别放在不同的文件中，例如：
+- `src/stores/slices/config_store.ts` 用于管理配置状态
+- `src/stores/slices/language_store.ts` 用于管理语言状态
+然后在 `src/stores/index.ts` 中将这些状态进行组合，进行统一导出。
+
+### 1.2 Dexie
+对于复杂的、大量的数据存储，项目使用Dexie进行数据库存储。
+其中，Dexie相关代码均位于 `src/db` 目录下。
+我们选用的版本为dexie 4.x， 并使用`dexie-react-hooks`的 `useLiveQuery` 进行数据查询。
+
+## 2 网络请求
+项目使用ky进行网络请求。
+对于网络请求，我们使用SWR进行缓存处理。
+其中，SWR相关代码均位于 `src/hooks/swr` 目录下，基础的ky封装则位于 `src/api` 目录下。
+
+## 3 组件
+项目使用ShadCN进行组件库管理。
+其可用组件均位于 `src/components/ui` 目录下。
+
+## 4 国际化
+项目使用 `next-intl` 进行国际化管理。
+对于国际化，我们使用 `next-intl` 的 `useTranslations` 进行翻译，例如：
+```tsx
+const t = useTranslations("common");
+```
+其中，国际化位于 `/messages` 目录下，默认使用中文，共有 `zh.json`、`en.json` 和 `ja.json` 三个文件。
+
+## 5 工具类/方法
+对于工具类/方法，我们均位于 `src/utils` 目录下。
+
+## 6 hooks
+对于hooks，我们均位于 `src/hooks` 目录下。
+并根据不同的功能，进行分类，例如：
+- `src/hooks/global` 用于管理全局hooks
+
+## 7 常量
+对于常量，我们均位于 `src/constants` 目录下。
+
+## 8 UI
+对于小区域媒体查询，我们使用 @tailwindcss/container-queries 进行处理，而不是全局 sm、md、lg、xl、2xl。
+例如：
+```tsx
+<div class="@container">
+  <div class="@lg:underline">
+    <!-- This text will be underlined when the container is larger than `32rem` -->
+  </div>
+</div>
+```
+
+## 9 动画
+项目使用 `tailwindcss-motion` 进行动画管理。
+例如：
+```tsx
+<div class="motion-opacity-in-0 motion-translate-y-in-100 motion-blur-in-md">
+  Fade in, slide up, and unblur
+</div>
+```
