@@ -15,31 +15,28 @@
 
 ## インターフェースプレビュー
 モデル対決では、ランダムまたは選択した2つのモデルでテキストから動画を生成し、より良い効果のモデルに投票できます。
-<video src="https://github.com/user-attachments/assets/687dcaf5-c2b8-4e0e-9e83-9f15ad65fe0e" controls></video>
+![](docs/302_Video_Arena_jp_screenshot_08.png)
 
 より良い効果のモデルに投票し、ランダムモードではモデル名が投票後に表示されます。
-![](docs/302_Video_Arena_screenshot_01.png)
+![](docs/302_Video_Arena_jp_screenshot_01.png)
 
 使用するモデルを選択してパラメータを設定すると、AIが入力されたテキストから動画を生成します。
-![](docs/302_Video_Arena_screenshot_02.png)
+![](docs/302_Video_Arena_jp_screenshot_02.png)
 
 使用するモデルを選択してパラメータを設定すると、AIがアップロードされた画像とプロンプトから動画を生成します。
-![](docs/302_Video_Arena_screenshot_03.png)
-
-画像から動画を生成した効果です。
-<video src="https://github.com/user-attachments/assets/f44327b1-7e48-4bb0-a91e-81ebba9ce36b" controls></video>
+![](docs/302_Video_Arena_jp_screenshot_03.png)
 
 動画の開始画像と終了画像をアップロードし、使用するモデルとパラメータを選択すると、AIが最初と最後のフレーム画像とプロンプトから動画を生成します。
-![](docs/302_Video_Arena_screenshot_04.png)
+![](docs/302_Video_Arena_jp_screenshot_04.png)
 
 使用するモデルを選択してパラメータを設定すると、AIがアップロードされた動画とプロンプトから動画を変換します。
-![](docs/302_Video_Arena_screenshot_05.png)
+![](docs/302_Video_Arena_jp_screenshot_05.png)
 
 ユーザーの投票結果に基づいて、システムは自動的に個人モデルランキングを生成し、最適なAI動画生成モデルを見つけるのを支援します。
-![](docs/302_Video_Arena_screenshot_06.png)
+![](docs/302_Video_Arena_jp_screenshot_06.png)
 
 生成された画像はすべて履歴で確認できます。
-![](docs/302_Video_Arena_screenshot_07.png)
+![](docs/302_Video_Arena_jp_screenshot_07.png)
 
 ## プロジェクトの特徴
 ### 🏆 モデルアリーナ
