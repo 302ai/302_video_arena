@@ -12,7 +12,7 @@
 
 ## 界面预览
 在模型PK中可以随机或自选两个模型进行文生视频，并投票选出效果更佳的模型。
-<video src="https://file.302.ai/gpt/imgs/20250328/21f9c2b1096445af815363a6fd597077.mp4" controls></video>
+![](docs/302_Video_Arena_screenshot_08.png)
 
 投票选择效果更佳的模型，随机模式下的模型名将在投票后展示。
 ![](docs/302_Video_Arena_screenshot_01.png)
@@ -22,9 +22,6 @@
 
 选择使用的模型并设置参数，AI将根据上传的图片和提示词内容生成视频。
 ![](docs/302_Video_Arena_screenshot_03.png)
-
-图片生成视频的生成效果。
-<video src="https://file.302.ai/gpt/imgs/20250328/5af71a3568dc444a894baa70874e41be.mp4" controls></video>
 
 上传视频的开始图片和结束图片，选择使用的模型并设置参数，AI将根据首尾帧图片和提示词内容生成视频。
 ![](docs/302_Video_Arena_screenshot_04.png)

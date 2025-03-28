@@ -12,7 +12,7 @@ This is the open-source version of the [Video Arena](https://302.ai/en/tools/vid
 
 ## Interface Preview
 In model battles, you can randomly or manually select two models for text-to-video generation and vote for the model with better results.
-<video src="https://file.302.ai/gpt/imgs/20250328/e8d3d29cd76845a29d1b803c41c5b67e.mp4" controls></video>
+![](docs/302_Video_Arena_en_screenshot_08.png)
 
 Vote for the model with better results. In random mode, model names will be revealed after voting.
 ![](docs/302_Video_Arena_en_screenshot_01.png)
@@ -22,9 +22,6 @@ Select the model to use and set parameters, AI will generate video based on inpu
 
 Select the model to use and set parameters, AI will generate video based on uploaded images and prompt content.
 ![](docs/302_Video_Arena_en_screenshot_03.png)
-
-Example of image-to-video generation results.
-<video src="https://file.302.ai/gpt/imgs/20250328/5af71a3568dc444a894baa70874e41be.mp4" controls></video>
 
 Upload start and end frames of a video, select the model to use and set parameters, AI will generate video based on the keyframes and prompt content.
 ![](docs/302_Video_Arena_en_screenshot_04.png)
