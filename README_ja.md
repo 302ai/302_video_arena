@@ -15,7 +15,7 @@
 
 ## インターフェースプレビュー
 モデル対決では、ランダムまたは選択した2つのモデルでテキストから動画を生成し、より良い効果のモデルに投票できます。
-<video src="https://github.com/user-attachments/assets/687dcaf5-c2b8-4e0e-9e83-9f15ad65fe0e" controls></video>
+<video src="https://file.302.ai/gpt/imgs/20250328/d172f4302d7e45cab21eb17bc72fc851.mp4" controls></video>
 
 より良い効果のモデルに投票し、ランダムモードではモデル名が投票後に表示されます。
 ![](docs/302_Video_Arena_screenshot_01.png)
@@ -27,7 +27,7 @@
 ![](docs/302_Video_Arena_screenshot_03.png)
 
 画像から動画を生成した効果です。
-<video src="https://github.com/user-attachments/assets/f44327b1-7e48-4bb0-a91e-81ebba9ce36b" controls></video>
+<video src="https://file.302.ai/gpt/imgs/20250328/5af71a3568dc444a894baa70874e41be.mp4" controls></video>
 
 動画の開始画像と終了画像をアップロードし、使用するモデルとパラメータを選択すると、AIが最初と最後のフレーム画像とプロンプトから動画を生成します。
 ![](docs/302_Video_Arena_screenshot_04.png)
