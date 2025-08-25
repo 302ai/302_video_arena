@@ -2,13 +2,13 @@
 
 <p align="center">视频竞技场随机或自选两个AI模型进行文生视频，投票选择效果更佳的模型，根据投票结果生成个人排行榜，还可以进行图生视频、视频转视频以及选择首尾帧生成视频。</p>
 
-<p align="center"><a href="https://302.ai/tools/videoarena/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/63" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![](docs/302_AI_Videoarena_Translation.png)
 
-来自[302.AI](https://302.ai)的[视频竞技场](https://302.ai/tools/videoarena/)的开源版本。你可以直接登录302.AI，零代码零配置使用在线版本。或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
+来自[302.AI](https://302.ai)的[视频竞技场](https://302.ai/product/detail/63)的开源版本。你可以直接登录302.AI，零代码零配置使用在线版本。或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
 
 ## 界面预览
 在模型PK中可以随机或自选两个模型进行文生视频，并投票选出效果更佳的模型。
